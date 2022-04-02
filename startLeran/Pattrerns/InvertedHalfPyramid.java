@@ -1,4 +1,5 @@
 package Pattrerns;
+
 import java.util.*;
 
 public class InvertedHalfPyramid {
@@ -17,3 +18,4 @@ public class InvertedHalfPyramid {
             sc.close();    
     }
 }
+
