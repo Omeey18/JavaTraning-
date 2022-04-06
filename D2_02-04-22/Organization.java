@@ -38,9 +38,9 @@ class EMS{
 
 public class Organization {
     public static void main(String[] args) {
-        EMS e1 = new EMS("Om","@abc");
+        // EMS e1 = new EMS("Om","@abc");
         System.out.println();
-        EMS e2 = new EMS("Om","@abc",9208393);
+        // EMS e2 = new EMS("Om","@abc",9208393);
         
     }
 

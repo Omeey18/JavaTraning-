@@ -1,7 +1,7 @@
 class Member{
     String name;
     int age;
-    long p_num;
+    int p_num;
     String address;
     int salary;
 
@@ -14,7 +14,7 @@ class Member{
 
 class employee extends Member{
     String specialization;
-    void setData(String nam, int ag, long pnum, String add, int sal, String speci){
+    void setData(String nam, int ag, int pnum, String add, int sal, String speci){
         name = nam;
         age = ag;
         p_num = pnum;
@@ -36,7 +36,7 @@ class employee extends Member{
 class Manager extends Member{
     String department;
 
-    void setData(String nam, int ag, long pnum, String add, int sal, String depa){
+    void setData(String nam, int ag, int pnum, String add, int sal, String depa){
         name = nam;
         age = ag;
         p_num = pnum;
@@ -61,10 +61,10 @@ class Manager extends Member{
 public class Task {
     public static void main(String[] args) {
         employee om = new employee();
-        om.setData("OmPatel", 20, 97, "kalol", 10000, "CE");
+        om.setData("OmPatel", 20, 1234567890, "kalol", 10000, "CE");
         om.show();
         Manager dhruv = new Manager();
-        dhruv.setData("DHruv", 60, 98723, "Nagaland", 10, "CE");
+        dhruv.setData("DHruv", 60, 1872387634, "Nagaland", 10, "CE");
         dhruv.show();
     }    
 }
