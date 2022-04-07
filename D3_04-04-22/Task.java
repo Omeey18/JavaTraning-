@@ -8,7 +8,6 @@ class Member{
 
     void printSalary(){
         System.out.println("Salary: "+salary);
-    
     }
 }
 
